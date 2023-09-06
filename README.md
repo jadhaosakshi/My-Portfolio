@@ -1,2 +1,134 @@
 # My-Portfolio
 i developed this portfolio website using HTML CSS. 
+//HTML Code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sakshi Jadhao..</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#ab">About</a>
+            <a href="#ed">Education</a>
+            <a href="#skill">Skills</a>
+            <a href="#cont">Contact</a>
+        </nav>
+    </header> 
+    <section class="page">
+        <div class="content">
+            <h1>Hello, I am Sakshi Jadhao</h1>
+            <h3>Web Developer</h3><br>
+            <p>I am a Web Developer and a content Creator based in the Pune. <br>
+                My Experties is in the area of responsive design. <br>With every line of code, 
+                I strive to make the web a beautiful place.
+            </p> <br>
+            <div class="box">
+                <a href="./IMAGE/Sakshi Vijay Jadhao Resume.pdf">Resume</a>
+                <a href="#cont">Let's Talk</a>
+            </div>
+        </div>
+        <br>
+        
+            <section>
+                <div class="image"></div>
+            </section>
+        
+    </section>  
+    <section>
+        <div class="about" id="ab"> 
+            <h2 class="heading">About <span>Me</span></h2> <br>
+            <div class="img">
+                <span class="circle-spin"></span>
+            </div> <br>
+            <p>
+                Hello, I am Sakshi Jadhao. I am a fresher at present. I am born and brought up in Nagpur. <br>
+                Currently I live in Pune. For my Full Stack Java Development Course. 
+                In terms of technical skills, <br>
+                I have knowledge about Java,HTML,CSS,JavaScript,C,C++,MySql. 
+                My Strength is Hardworking,Flexibility, <br>Organized,willingness 
+                to complete any task on time. <br> I considered my self as a good listener, passionate and a Punctual Person. <br>
+                My career objective is to secure a responsible career opportunity and have desired position in an institution. <br>
+                And to fully utilize my training and skills, while making a significant contribution to the success of the company.  
+            </p>
+        </div>
+    </section> 
+    <section class="education" id="ed">
+        <h1>Education</h1> <br>
+        <div class="info">
+            <h3>Bachelore of Computer Application</h3>
+            <h4>City Premier College, Nagpur</h4>
+            <h5>Agg.Percent: 81%</h5>
+        </div> <br>
+        <div class="info1">
+            <h3>Higher Secondary Certificate</h3>
+            <h4>Prerna Jr. College, Nagpur</h4>
+            <h5>Percent: 58%</h5>
+        </div> <br>
+        <div class="info2">
+            <h3>Secondary School Certificate</h3>
+            <h4>Sanjuba High School, Nagpur</h4>
+            <h5>Percent: 75%</h5><br>
+        </div><br>
+    </section>
+    <section class="skills" id="skill"><br><br><br>
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h1 class="title">Technical Skills</h1>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Java <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="cont">
+        <div class="contme">
+            <p><strong>Contact <span>Me</span></strong><br>
+                <a href="https://www.instagram.com/jadhao.sakshi/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.facebook.com/sakshi.jadhao.129/"><i class='bx bxl-facebook' ></i></a>
+                <a href="www.linkedin.com/in/sakshi-jadhao-600b98216"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><i class='bx bxl-gmail'></i></a></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sakshi Jadhao | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- <script src="portscript.js"></script> -->
+</body>
+</html>
